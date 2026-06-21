@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L.B.C.P - 로그인</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="home-screen">
+    <section class="fullscreen">
+      <div>
+        <img src="src/limbus.png" alt="로고" class="limbus-logo" />
+      </div>
+      <div class="login-box">
+        <h1>L.B.C.P</h1>
+        <p>Limbus Company Presentation</p>
+        <div class="login-form">
+          <input type="text" id="userid" placeholder="관리자 ID를 입력하세요" />
+          <input
+            type="password"
+            id="userpw"
+            placeholder="비밀번호를 입력하세요"
+          />
+          <button onclick="checkLogin()">ENTER</button>
+          <p id="error-msg" class="error-msg"></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
